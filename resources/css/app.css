@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    /* =====================================================
+       TYPOGRAPHY
+       ===================================================== */
+
+    --font-sans:
+        'Source Sans 3',
+        ui-sans-serif,
+        system-ui,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        'Noto Color Emoji';
+
+
+    /* =====================================================
+       BRAND COLORS
+       ===================================================== */
+
+    --color-primary-50: #eff6ff;
+    --color-primary-100: #dbeafe;
+    --color-primary-200: #bfdbfe;
+    --color-primary-300: #93c5fd;
+    --color-primary-400: #60a5fa;
+    --color-primary-500: #3b82f6;
+    --color-primary-600: #2563eb;
+    --color-primary-700: #1d4ed8;
+    --color-primary-800: #1e40af;
+    --color-primary-900: #1e3a8a;
+
+
+    /* =====================================================
+       APPLICATION COLORS
+       ===================================================== */
+
+    --color-app-bg: #f5f7fb;
+    --color-app-card: #ffffff;
+    --color-app-text: #111827;
+    --color-app-muted: #6b7280;
+    --color-app-border: #e5e7eb;
+
+
+    /* =====================================================
+       BORDER RADIUS
+       ===================================================== */
+
+    --radius-app: 14px;
+    --radius-app-sm: 9px;
+    --radius-app-lg: 18px;
+
+
+    /* =====================================================
+       SHADOWS
+       ===================================================== */
+
+    --shadow-app:
+        0 4px 20px rgba(15, 23, 42, 0.05);
+
+    --shadow-app-hover:
+        0 12px 30px rgba(15, 23, 42, 0.09);
+
+    --shadow-app-lg:
+        0 20px 55px rgba(15, 23, 42, 0.09);
+}
